@@ -142,7 +142,7 @@ section::before,section::after {
     03. Navigation
 ========================================================================== */
 #menu {
-    background:rgba(33,45,57,0.8);
+    background:rgba(33,45,57,0.6);
     margin-bottom:0;
 }
 .navbar-brand h2 {
@@ -210,7 +210,7 @@ section::before,section::after {
     margin-bottom:80px;
 }
 .lead {
-    font-size:17px;
+    font-size:2rem;
     line-height:24px;
     font-weight:normal;
     text-transform:uppercase;
@@ -246,7 +246,7 @@ section::before,section::after {
 }
 
 .parallax {
-    background:url(https://40.media.tumblr.com/70854822907e1f1fd71d911c16b3086b/tumblr_ntds0hCPzI1ud7rr3o1_1280.jpg) fixed no-repeat center center;
+    background-image:url(../assets/images/bg3.jpg); fixed no-repeat center center;
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -272,7 +272,7 @@ section::before,section::after {
     color:#fff;
 }
 .facts p {
-    font-size:16px;
+    font-size:2.2rem;
     text-transform:uppercase;
     margin:0;
 }
