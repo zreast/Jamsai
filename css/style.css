@@ -75,7 +75,7 @@ section::before,section::after {
     02. Header
 ========================================================================== */
 #header {
-    background-image:url(../assets/images/bg1.jpg);
+    background-image:url(../assets/images/bg1.png);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -91,7 +91,7 @@ section::before,section::after {
     left:0;
     right:0;
     bottom:0;
-    background:rgba(44,33,5,0.5);
+    background:rgba(44,33,5,0.2);
     z-index:0;
 }
 #header .center {
@@ -107,13 +107,11 @@ section::before,section::after {
     text-transform:uppercase;
 }
 #header .banner h1 {
-    font-size:2rem;
+    font-size:4em;
     color:white;
     text-transform:uppercase;
     font-weight:bold;
     display:inline-block;
-    background:#f3a9bf;
-    opacity: 0.8;
     padding:0px 18px;
 }
 #header .subtitle h4 {
@@ -169,7 +167,7 @@ section::before,section::after {
 }
 
 .navbar #logo:hover {
-  background:#ed0121;
+  background:#433c5e;
   -webkit-transition:all 0.4s;
     -moz-transition:all 0.4s;
     -o-transition:all 0.4s;
@@ -185,7 +183,7 @@ section::before,section::after {
     font-weight:bold;
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
-    background:#ed0121;
+    background:#433c5e;
     color:white;
     text-shadow:none;
 }
@@ -223,7 +221,7 @@ section::before,section::after {
 .lead:after {
     position:absolute;
     content:' ';
-    background:#ed0121;
+    background:#433c5e;
     width:80px;
     height:3px;
     bottom:-22px;
@@ -247,7 +245,8 @@ section::before,section::after {
   background: rgba(0,0,0,0.1);
 }
 
-.parallax {  background:url(https://40.media.tumblr.com/70854822907e1f1fd71d911c16b3086b/tumblr_ntds0hCPzI1ud7rr3o1_1280.jpg) fixed no-repeat center center;
+.parallax {
+    background:url(https://40.media.tumblr.com/70854822907e1f1fd71d911c16b3086b/tumblr_ntds0hCPzI1ud7rr3o1_1280.jpg) fixed no-repeat center center;
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -260,7 +259,7 @@ section::before,section::after {
     padding-bottom:130px;
 }
 .parallax.parallax2 {
-    background-image:url(https://36.media.tumblr.com/6f9bcb46c216fcd2e8e1129610b5ed7b/tumblr_nte8zuS6rv1ud7rr3o1_1280.jpg);
+    background-image:url(../assets/images/bg2.jpg);
 }
 .bm10 {
     margin-bottom:10px !important;
@@ -294,7 +293,7 @@ section::before,section::after {
 }
 .menu-titles h1 {
     text-shadow:none;
-    color:#ed0121;
+    color:#433c5e;
     text-align:center;
     margin:0 auto;
     padding-top:30px;
@@ -347,7 +346,7 @@ section::before,section::after {
     border-radius:100px;
 }
 .br-red {
-    background-color:#ed0121 !important;
+    background-color:#433c5e !important;
 }
 .br-lblue {
     background-color:#32c8de !important;
@@ -457,13 +456,13 @@ section::before,section::after {
     10. Footer
 ========================================================================== */
 .dark-wrapper {
-    background:#ed0121;
+    background:#433c5e;
     color:white;
     font-size:20px;
     font-weight:bold;
 }
 .dark-wrapper .ss-style-top::before {
-    background-image:linear-gradient(315deg,#ed0121 50%,transparent 50%),linear-gradient(45deg,#ed0121 50%,transparent 50%);
+    background-image:linear-gradient(315deg,#433c5e 50%,transparent 50%),linear-gradient(45deg,#433c5e 50%,transparent 50%);
 }
 .social-bar {
     width:100%;
@@ -488,7 +487,7 @@ section::before,section::after {
 }
 
 .themeBy{
-    color: #ed0121;
+    color: #433c5e;
     background: white;
 }
 
