@@ -167,7 +167,7 @@ section::before,section::after {
 }
 
 .navbar #logo:hover {
-  background:#433c5e;
+  background:#ebc1d2;
   -webkit-transition:all 0.4s;
     -moz-transition:all 0.4s;
     -o-transition:all 0.4s;
@@ -183,7 +183,7 @@ section::before,section::after {
     font-weight:bold;
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
-    background:#433c5e;
+    background:#ebc1d2;
     color:white;
     text-shadow:none;
 }
