@@ -28,10 +28,6 @@
 
 
 $(document).ready(function() {
-	setTimeout(function() {
-    $('.wrapper').addClass('loaded');
-    
-	}, 3000);
 	///////////////////////////////
 	// Set Home Slideshow Height
 	///////////////////////////////
