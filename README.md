@@ -1,2 +1,2 @@
 # Jamsai
-Kuy
+Just a part of https://github.com/jamsai/laraSai
